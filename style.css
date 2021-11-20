@@ -1,5 +1,5 @@
 body{
-  background-image: url('https://lanecdr.org/wp-content/uploads/2019/08/placeholder.png'); /*Seeting the background image. Ypu can change this by changing the link!*/ 
+  background-image: url('https://images.unsplash.com/photo-1585314062604-1a357de8b000?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHx8&w=1000&q=80'); /*Seeting the background image. Ypu can change this by changing the link!*/ 
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -9,7 +9,7 @@ body{
 }  
 
 .main {
-    background: rgb(27, 48, 47, 0.4); /* you can find the color combination online - google css color picker. The last value is the opacity */
+    background: rgb(, 48, 47, 0.4); /* you can find the color combination online - google css color picker. The last value is the opacity */
     margin: 1rem; /* see referance for how padding and margins apply */
     padding: 2rem; /* see referance for how padding and margins apply */
     font-size: 1rem; /* rem is unit of measurement relative to font-size of the root element */
@@ -25,7 +25,7 @@ body{
 
 /* for classes that we specify include a '.' before class name */
   .box1 {
-    border: 2px solid blue; /* px is unit of measurement in pixels */
+    border: 1.5px solid cadetblue; /* px is unit of measurement in pixels */
     border-radius: 10px;
     padding: 0rem 2rem 1rem 2rem;
     margin-bottom: 2.5rem;
@@ -45,21 +45,23 @@ body{
   color: white;
   margin: 1rem 2rem;
   float: left;
+  font-size: 2vw;
 }
 
 .pId {
   color: white;
   margin: 1rem 2rem;
   float: right;
+  font-size: 2vw;
 }
 
  h1 { 
-   color: white;
+   color: cadetblue;
    text-align: center;
    padding: 2rem ;
    margin: auto;
    width: 50%;
-   font-size: 1.75vw;
+   font-size: 4vw;
 }
 
 h2 {
@@ -102,3 +104,15 @@ p2 {
 .imgmar{
   margin: 1.5%;
 }
+© 2021 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
