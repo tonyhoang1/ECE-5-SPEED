@@ -133,7 +133,7 @@
           <p class='box2'>
             What is the purpose of the motor driver/shield?
             <br><br>
-            &emsp; The motor driver/shield gives the motor something to communicate with. It links the motor to the Arduino Mega, which then communicates with our code and breadboards.
+            &emsp; The motor driver/shield gives the motor something to communicate with. It links the motor to the Arduino Mega, which then communicates with our code and breadboards. It also powers and controls the motors and allows for a seperate power source via a second battery.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -158,7 +158,7 @@
             Challenge #7: Explain why you need to calibrate your photoresistor values. 
             What problem does this help solve and what problems do you still see coming from your photoresistors?  
             <br><br>
-            &emsp; In the real world, photoresistors are not always going to be perfect when reading the light levels. Many things can intefer with the sensoring such as outside light and reflections. This is why we need to calibrate the photoresistor values so that it can consistent when reading the black line values. It helps solve the problem of third person lighting, but it still needs light on the bottom so that it has more accurate readings. It also still needs the light shield, because the calibrations from PID is going to always help with outside lights.
+            &emsp; In the real world, photoresistors are not always going to be perfect when reading the light levels. Many things can intefer with the sensoring such as outside light and reflections. This is why we need to calibrate the photoresistor values so that it can consistent when reading the black line values. It helps solve the problem of third person lighting, but it still needs light on the bottom so that it has more accurate readings. It also still needs the light shield, because the calibrations from PID is going to always help with outside lights. Calibration helps the robot dinstguish the dark from light better.
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
@@ -189,7 +189,14 @@
             What steps did you take to choose the best values for your robot? 
             Explain this like you would for someone taking this course next year.
             <br><br>
-            &emsp; Answer here...
+            P - Proportion
+              <br>
+                    I - Integral
+            <br>
+                    D- Derivative
+            <br>
+            <br>
+            The purpose of the PID is how the robot follows the line. The factors on how the robot follows the line is by rise time, overshoot, settling time, steady-state error, and stability. Test each PID value seperately and apply the one that worked the best. The best way to find the PID for other students would be just trial and error. 
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
