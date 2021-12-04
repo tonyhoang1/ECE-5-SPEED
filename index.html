@@ -53,7 +53,7 @@
 <!----------------------------------------  BUTTON 1 ---------------------------------------->
       
       <div class='center'>
-        <button type='button' onclick="toggleText1()" class="btn">Challenges #1 & #2</button>
+        <button type='button' onclick="toggleText1()" class="btn">Challenges 1A - 1D</button>
       </div> <!--end of div class center -->
       
       <div class="interactive" id='interactive1' style='display: none'>
@@ -89,7 +89,7 @@
 <!----------------------------------------  BUTTON 2 ---------------------------------------->
         
       <div class ='center'> <!-- we put the buton in a container to center it -->
-        <button type='button' onclick="toggleText2()" class="btn">Challenge #3 & #4</button>
+        <button type='button' onclick="toggleText2()" class="btn">3-D Printed Chasis</button>
       </div> <!--end of div class center -->
       
       <div class="interactive" id='interactive2' style='display: none'>
@@ -116,7 +116,7 @@
 <!----------------------------------------  BUTTON 3 ---------------------------------------->
       
       <div class ='center'>
-        <button type='button' onclick="toggleText3()" class="btn">Challenge #5 & #6</button>
+        <button type='button' onclick="toggleText3()" class="btn">Motor Shield</button>
       </div> <!--end of div class center -->
       
       <div class="interactive" id='interactive3' style='display: none'>
@@ -141,7 +141,7 @@
 <!----------------------------------------  BUTTON 4 ----------------------------------------> 
       
       <div class ='center'>
-        <button type='button' onclick="toggleText4()" class="btn">Challenge #7</button>
+        <button type='button' onclick="toggleText4()" class="btn">Light Shield and Calibration</button>
       </div> <!--end of div class center -->
             
       <div class="interactive" id='interactive4' style='display: none'>
@@ -155,7 +155,7 @@
            <br>
           
           <p class='box2'>
-            Challenge #7: Explain why you need to calibrate your photoresistor values. 
+           Explain why you need to calibrate your photoresistor values. 
             What problem does this help solve and what problems do you still see coming from your photoresistors?  
             <br><br>
             &emsp; In the real world, photoresistors are not always going to be perfect when reading the light levels. Many things can intefer with the sensoring such as outside light and reflections. This is why we need to calibrate the photoresistor values so that it can consistent when reading the black line values. It helps solve the problem of third person lighting, but it still needs light on the bottom so that it has more accurate readings. It also still needs the light shield, because the calibrations from PID is going to always help with outside lights. Calibration helps the robot dinstguish the dark from light better.
@@ -166,24 +166,28 @@
 <!----------------------------------------  BUTTON 5 ---------------------------------------->
       
       <div class ='center'>
-        <button type='button' onclick="toggleText5()" class="btn">Challenge #8</button>
+        <button type='button' onclick="toggleText5()" class="btn">Competition</button>
       </div> <!--end of div class center -->
             
       <div class="interactive" id='interactive5' style='display: none'>
         <div class='box1'>
           <br>
           
-            <img src = 'https://www.pm10inc.com/wp-content/themes/micron/images/placeholders/ninzio_slider_placeholder.png' class='imgmar'>
+            <iframe width="500" height="315" src="https://www.youtube.com/embed/EVXCnUHjAbo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <!-- to insert image replace the link to the image of choice ** note: keep the quotations -->
             <br>
-            <p2>IMG1 Add a picture of your robot following a line 
+            <p2>
              </p2>
             <br><br> 
           
           <p class='box2'>
             What was the best PID values that you used? How well did this track? Any limitations?
             <br><br>
-            &emsp; Answer here...
+            <img src = 'https://lh3.googleusercontent.com/LqIhuogmua5Ms5cwt7nrWUMJFCVPU0Pb6CCP6LZpWl60BT1Xm9y55VM5arjYqI5YUcHR8yzQwVHcN_NIh7HxBWtNK_iblocuYY7b-eJTvR5KqEq2QMPm4vq3tfkjS5Re3YukCBfe=w300' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/3AdF0RfWY0oGfZThgYYV2U9MWi8QOZ5B302xDotP04bCCGObKwBX_TRt-EUOuu9hRqlFU3j6v3OUajPvhx-gl21UvE0MCljDaLn_jA1LUEf5-GJiVqXZKLGJ9ZbJpzkfwQzEcCH7=w300' class='imgmar'>
+            <img src = 'https://lh3.googleusercontent.com/hwafEKaEZxWTGskksFKfFz3lC_HcB2YqUeRRURGBv-FnmfEnUefZbE-i09nZpr_uFV6EdAjIsqkiZgzoSzMAzk3SSHJrvxQIDSaM5jEEEMPyuL6BWDCPX2ZKethy7attBdvjURcJ=w300' class='imgmar'>
+            <br>
+            The PID values from left to right correspond with the drag race, circle circuit, and the frequency track. For the limitations, I feel like sometimes we wanted to add more P, I, or D but it was already at it's max.
             <br><br><br>
             What does PID stand for?  What is the purpose of the P, the I, and the D?  
             What steps did you take to choose the best values for your robot? 
@@ -196,7 +200,7 @@
                     D- Derivative
             <br>
             <br>
-            The purpose of the PID is how the robot follows the line. The factors on how the robot follows the line is by rise time, overshoot, settling time, steady-state error, and stability. Test each PID value seperately and apply the one that worked the best. The best way to find the PID for other students would be just trial and error. The best place to start is to adjust the P value first. 
+            The purpose of the PID is how the robot follows the line. The factors on how the robot follows the line is by rise time, overshoot, settling time, steady-state error, and stability. Test each PID value seperately and apply the one that worked the best. The best way to find the PID for other students would be just trial and error. 
           </p> <!-- p is paragraph -->
         </div> <!-- This is the end of div interactive -->
       </div> <!-- This is the end of div box1 -->
